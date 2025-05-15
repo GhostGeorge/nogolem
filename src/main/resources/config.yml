@@ -1,0 +1,2 @@
+# Whether golem spawning is blocked
+block-golems: false

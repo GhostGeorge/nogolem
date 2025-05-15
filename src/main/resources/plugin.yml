@@ -1,0 +1,14 @@
+name: nogolem
+version: '1.0'
+main: me.ghostgeorge.nogolem.Nogolem
+api-version: '1.21'
+description: Toggle iron and snow golem spawning
+commands:
+  nogolem:
+    description: Enable or disable golem spawn blocking
+    usage: /<command> <enable|disable>
+    permission: nogolem.toggle
+permissions:
+  nogolem.toggle:
+    description: Allows use of /nogolem command
+    default: op
